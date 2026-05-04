@@ -1,0 +1,82 @@
+MIT License
+
+Copyright (c) 2026 VibeSpec Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Attribution
+
+Gembastique is a simplified framework inspired by the following projects and ideas.
+These projects are independent works by their respective authors and are NOT
+included in this repository. Gembastique contains only original code written
+specifically for this framework.
+
+### Origin
+
+VibeSpec nace de un artículo: [Cómo unimos producto e ingeniería con agentes en Mercadona Tech](https://www.gemba.es/p/como-unimos-producto-e-ingenieria), escrito por [José Ramón Pérez Agüera](https://www.gemba.es) en [Gemba](https://www.gemba.es). VibeSpec es una versión simplificada de ese pipeline: misma disciplina, menos ceremonia. Sin José y sin Gemba, este framework no existiría.
+
+*Magnifique, Fantastique, VibeSpec!*
+
+### Ideas and Methodology
+
+- **Working Backwards** (Bill Carr, Colin Bryar, Amazon, 2021) — The product-first
+  thinking methodology that underpins the spec skill's approach to defining features
+  before building them.
+
+- **The Mom Test** (Rob Fitzpatrick, 2013) — The research methodology that influenced
+  the emphasis on falsifiable, evidence-based Success Criteria.
+
+### Source Projects
+
+- **[Get Shit Done (GSD)](https://github.com/gsd-build/get-shit-done)** by Tâches —
+  MIT License. Gembastique borrows the concept of spec-driven development with
+  falsifiable requirements, phase-based planning, and verification-before-completion.
+  GSD's `.planning/` directory structure and REQ-ID traceability pattern inspired
+  Gembastique's SC-ID traceability. Gembastique does NOT include any GSD code.
+
+- **[Superpowers](https://github.com/obra/superpowers)** by Jesse Vincent —
+  MIT License. Gembastique borrows Superpowers' TDD-first philosophy (red-green-refactor
+  cycle, no-production-code-without-failing-test rule, verification-before-completion
+  principle) and the subagent-driven-development pattern. Gembastique does NOT include
+  any Superpowers code.
+
+- **[Mercadona User Story Toolkit](https://github.com/josemerca/mercadona-user-story-toolkit)**
+  by José Ramón Pérez Agüera — MIT License. Gembastique borrows the "copiloto, no
+  piloto automático" philosophy (the skill never invents data, forces the user to think),
+  the anti-waterfall batch prioritization concept, and the spec-amendment pattern
+  (never overwrite the original spec, record drift as amendments). Gembastique does
+  NOT include any Mercadona User Story Toolkit code.
+
+### What Gembastique Does NOT Include
+
+- No code from GSD, Superpowers, or Mercadona User Story Toolkit is present in this
+  repository. All skills, commands, agents, and hooks are original work written for
+  Gembastique.
+
+- Gembastique simplifies the 3-tool pipeline (GSD → MUST → Superpowers) into a single
+  framework with 4 skills. The simplification is intentional: designed for solo vibe
+  coders and small teams (1-3 people) who don't need PM/Eng role separation.
+
+### What You Should Also Read
+
+- [Cómo unimos producto e ingeniería con agentes en Mercadona Tech](https://www.gemba.es/p/como-unimos-producto-e-ingenieria)
+  by José Ramón Pérez Agüera — The article that articulates the pipeline Gembastique
+  simplifies.
