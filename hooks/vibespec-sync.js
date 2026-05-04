@@ -116,6 +116,16 @@ function detectBatchCompletion(specPath) {
   return batches;
 }
 
+function markBatchComplete(specPath, batchNum) {
+  let content = fs.readFileSync(specPath, 'utf-8');
+  const regex = new RegExp(`^(### Batch ${batchNum}: )(.+)$`, 'm');
+  const match = regex.exec(content);
+  if (match && !match[2].endsWith(' ✅')) {
+    content = content.replace(regex, `$1${match[2]} ✅`);
+    fs.writeFileSync(specPath, content);
+  }
+}
+
 function main() {
   const specPath = path.join(process.cwd(), SPEC_FILE);
 
@@ -153,6 +163,8 @@ function main() {
     const batches = detectBatchCompletion(specPath);
     for (const batch of batches) {
       if (batch.isComplete) {
+        markBatchComplete(specPath, batch.num);
+        console.log(`Batch ${batch.num} complete: ${batch.completed}/${batch.total} SCs done`);
       }
     }
   }

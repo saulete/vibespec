@@ -72,7 +72,7 @@ If the skill activates and starts asking you Working Backwards questions, VibeSp
 Remove VibeSpec files from your Kilo config:
 
 ```bash
-rm -rf ~/.config/kilo/skills/spec ~/.config/kilo/skills/build ~/.config/kilo/skills/verify ~/.config/kilo/skills/iterate
+rm -rf ~/.config/kilo/skills/vibespec
 rm -f ~/.config/kilo/command/spec.md ~/.config/kilo/command/build.md ~/.config/kilo/command/verify.md ~/.config/kilo/command/iterate.md
 rm -f ~/.config/kilo/agent/executor.md ~/.config/kilo/agent/verifier.md
 rm -f ~/.config/kilo/hooks/vibespec-sync.js

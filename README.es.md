@@ -232,20 +232,6 @@ Reemplaza: gsd-bridge sync
 
 ---
 
-## Instalación
-
-```bash
-# Clonar el framework
-git clone https://github.com/saulete/vibespec ~/.config/kilo/skills/vibespec
-
-# Verificar
-# Los skills se auto-descubren en la próxima sesión de Kilo
-```
-
-Los skills, commands, agents y hooks se instalan en `~/.config/kilo/` (global) o en `.kilo/` de tu proyecto (local).
-
----
-
 ## Flujo visual
 
 ```

@@ -24,9 +24,9 @@ SOFTWARE.
 
 ## Attribution
 
-Gembastique is a simplified framework inspired by the following projects and ideas.
+VibeSpec is a simplified framework inspired by the following projects and ideas.
 These projects are independent works by their respective authors and are NOT
-included in this repository. Gembastique contains only original code written
+included in this repository. VibeSpec contains only original code written
 specifically for this framework.
 
 ### Origin
@@ -47,36 +47,36 @@ VibeSpec nace de un artículo: [Cómo unimos producto e ingeniería con agentes 
 ### Source Projects
 
 - **[Get Shit Done (GSD)](https://github.com/gsd-build/get-shit-done)** by Tâches —
-  MIT License. Gembastique borrows the concept of spec-driven development with
+  MIT License. VibeSpec borrows the concept of spec-driven development with
   falsifiable requirements, phase-based planning, and verification-before-completion.
   GSD's `.planning/` directory structure and REQ-ID traceability pattern inspired
-  Gembastique's SC-ID traceability. Gembastique does NOT include any GSD code.
+  VibeSpec's SC-ID traceability. VibeSpec does NOT include any GSD code.
 
 - **[Superpowers](https://github.com/obra/superpowers)** by Jesse Vincent —
-  MIT License. Gembastique borrows Superpowers' TDD-first philosophy (red-green-refactor
+  MIT License. VibeSpec borrows Superpowers' TDD-first philosophy (red-green-refactor
   cycle, no-production-code-without-failing-test rule, verification-before-completion
-  principle) and the subagent-driven-development pattern. Gembastique does NOT include
+  principle) and the subagent-driven-development pattern. VibeSpec does NOT include
   any Superpowers code.
 
 - **[Mercadona User Story Toolkit](https://github.com/josemerca/mercadona-user-story-toolkit)**
-  by José Ramón Pérez Agüera — MIT License. Gembastique borrows the "copiloto, no
+  by José Ramón Pérez Agüera — MIT License. VibeSpec borrows the "copiloto, no
   piloto automático" philosophy (the skill never invents data, forces the user to think),
   the anti-waterfall batch prioritization concept, and the spec-amendment pattern
-  (never overwrite the original spec, record drift as amendments). Gembastique does
+  (never overwrite the original spec, record drift as amendments). VibeSpec does
   NOT include any Mercadona User Story Toolkit code.
 
-### What Gembastique Does NOT Include
+### What VibeSpec Does NOT Include
 
 - No code from GSD, Superpowers, or Mercadona User Story Toolkit is present in this
   repository. All skills, commands, agents, and hooks are original work written for
-  Gembastique.
+  VibeSpec.
 
-- Gembastique simplifies the 3-tool pipeline (GSD → MUST → Superpowers) into a single
+- VibeSpec simplifies the 3-tool pipeline (GSD → MUST → Superpowers) into a single
   framework with 4 skills. The simplification is intentional: designed for solo vibe
   coders and small teams (1-3 people) who don't need PM/Eng role separation.
 
 ### What You Should Also Read
 
 - [Cómo unimos producto e ingeniería con agentes en Mercadona Tech](https://www.gemba.es/p/como-unimos-producto-e-ingenieria)
-  by José Ramón Pérez Agüera — The article that articulates the pipeline Gembastique
+  by José Ramón Pérez Agüera — The article that articulates the pipeline VibeSpec
   simplifies.
