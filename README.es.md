@@ -4,7 +4,7 @@
 
 Framework de desarrollo de producto riguroso para vibe coders y equipos pequeños. 4 skills, 1 hook, 0 burocracia.
 
-*Magnifique, Fantastique, VibeSpec!*
+*Spec first. Vibe right.*
 
 ---
 
