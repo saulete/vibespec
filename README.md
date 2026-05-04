@@ -1,5 +1,7 @@
 # VibeSpec
 
+**English** | [Español](README.es.md)
+
 Rigorous product development framework for vibe coders and small teams. 4 skills, 1 hook, 0 bureaucracy.
 
 *Magnifique, Fantastique, VibeSpec!*
