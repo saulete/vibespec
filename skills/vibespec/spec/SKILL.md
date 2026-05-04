@@ -99,10 +99,10 @@ Write SPEC.md in the project root with this exact structure:
 ## Working Backwards
 [2-3 sentences: when this is done, the user can... and we know it works because...]
 
-## Para Quién
+## For Whom
 [1-2 specific user types — not "everyone"]
 
-## Success Criteria (falsables)
+## Success Criteria (falsifiable)
 - [ ] SC-01: [description] ([baseline] → [target])
 - [ ] SC-02: [description] ([baseline] → [target])
 
@@ -111,9 +111,9 @@ Write SPEC.md in the project root with this exact structure:
 
 ## Batches (anti-waterfall)
 ### Batch 1: [name that describes the value delivered]
-- Implementa: SC-01, SC-02
+- Implements: SC-01, SC-02
 ### Batch 2: [name that describes the value delivered]
-- Implementa: SC-03, SC-04
+- Implements: SC-03, SC-04
 
 ## Amendments
 [Leave empty — this section auto-populates when spec drifts from implementation]

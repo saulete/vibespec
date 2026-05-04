@@ -8,7 +8,7 @@
 ## Option A: Install with install.sh
 
 ```bash
-# Clone or download the framework
+# Clone the framework
 git clone https://github.com/saulete/vibespec.git
 cd vibespec
 
@@ -26,16 +26,16 @@ KILO_CONFIG_DIR=/path/to/kilo/config ./install.sh
 
 ## Option B: Install manually
 
-Copy each directory to your Kilo config:
+From inside the cloned `vibespec/` directory, copy each component to your Kilo config:
 
 ```bash
-# 1. Skills (the 4 core skills)
-cp -r skills/* ~/.config/kilo/skills/
+# 1. Skills (4 skills under the vibespec namespace)
+cp -r skills/vibespec ~/.config/kilo/skills/
 
 # 2. Commands (slash commands: /spec, /build, /verify, /iterate)
 cp -r command/* ~/.config/kilo/command/
 
-# 3. Agents (executor and verifier)
+# 3. Agents (executor and verifier — note: Kilo uses "agent" singular)
 cp -r agents/* ~/.config/kilo/agent/
 
 # 4. Hooks (auto-sync hook)

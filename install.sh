@@ -14,7 +14,7 @@ cp -r "$SCRIPT_DIR/agents/"* "$KILO_CONFIG_DIR/agent/"
 cp -r "$SCRIPT_DIR/hooks/"* "$KILO_CONFIG_DIR/hooks/"
 
 echo "Installed:"
-echo "  Skills:   $(ls "$SCRIPT_DIR/skills/" | wc -l | tr -d ' ') skills (spec, build, verify, iterate)"
+echo "  Skills:   4 skills (vibespec/spec, vibespec/build, vibespec/verify, vibespec/iterate)"
 echo "  Commands: $(ls "$SCRIPT_DIR/command/" | wc -l | tr -d ' ') commands (/spec, /build, /verify, /iterate)"
 echo "  Agents:   $(ls "$SCRIPT_DIR/agents/" | wc -l | tr -d ' ') agents (executor, verifier)"
 echo "  Hooks:    $(ls "$SCRIPT_DIR/hooks/" | wc -l | tr -d ' ') hook (vibespec-sync)"
